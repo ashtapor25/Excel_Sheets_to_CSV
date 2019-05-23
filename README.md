@@ -1,5 +1,6 @@
 # Excel_Sheets_to_CSV
 A simple python program to decompose .xlsx or .xls files. Creates .csv files for each sheet.
+If you already have xlrd installed and do not wish to see the program trying to install it every time, use the excel_sheets_to_csv_noxlrd.py instead.
 
 Required Packages: xlrd (automatically installed with execution)
 
@@ -10,7 +11,7 @@ Required Packages: xlrd (automatically installed with execution)
 4. The program will automatically create a folder named after the excel file, containing the csv files named after the sheets.
 
 # 엑셀파일 시트별 CSV변환 프로그램
-엑셀(.xlsx, .xls) 파일의 시트들을 하나씩 csv파일로 만들어주는 간단한 프로그램입니다. 파이썬3이 설치되어있는 환경이어야 합니다.
+엑셀(.xlsx, .xls) 파일의 시트들을 하나씩 csv파일로 만들어주는 간단한 프로그램입니다. 파이썬3이 설치되어있는 환경이어야 합니다. xlrd 패키지를 이미 설치하였고, 설치 시도 메시지를 보고 싶지 않은 경우에는 excel_sheets_to_csv_noxlrd.py 를 대신 사용해주세요.
 
 필요한 패키지: xlrd (프로그램 실행시 자동 설치됨)
 
