@@ -22,7 +22,6 @@ def excel_to_csv():
         print(target_file+" does not exist in the directory")
         return
 
-    no_filename_chars = ['<', '>', '?', '[', ']', ':', '|', '*']
     transtable = str.maketrans('','','<>?[]:|*')
 
     # create a folder in the home directory for the CSVs
